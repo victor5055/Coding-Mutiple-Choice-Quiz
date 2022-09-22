@@ -36,6 +36,7 @@ body{
 }
 
 .info_box{
+    display: none;
     width: 540px;
     background: white;
     border-radius: 5px;
