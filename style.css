@@ -12,8 +12,9 @@ body{
 }
 
 
-.start_btn,
- .info_box{
+    .start_btn,
+    .info_box,
+    .quiz_box {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -21,7 +22,7 @@ body{
 
 }
 
-/*Start Quix Button Styling */
+/*Start Quiz Button Styling */
 .start_btn button{
     font-size: 25px;
     font-weight: 500;
@@ -86,26 +87,29 @@ body{
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .buttons button.restart{
     color: black;
-    border-color: black;
     background: lightblue;
 }
 
 .buttons button.restart:hover{
-    color:white;
     background: lightblue;
 }
 
 .buttons button.quit{
     color: black;
-    border-color: black;
-    background: lightblue;
 }
 
 .buttons button.quit:hover{
     color:white;
     background: lightblue;
+}
+
+.quiz_box{
+    width: 550px;
+    background: white;
+    border-radius: 5px;
 }
