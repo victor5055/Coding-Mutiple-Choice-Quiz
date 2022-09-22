@@ -90,9 +90,21 @@ body{
 .buttons button.restart{
     color: black;
     border-color: black;
+    background: lightblue;
+}
+
+.buttons button.restart:hover{
+    color:white;
+    background: lightblue;
 }
 
 .buttons button.quit{
     color: black;
     border-color: black;
+    background: lightblue;
+}
+
+.buttons button.quit:hover{
+    color:white;
+    background: lightblue;
 }
