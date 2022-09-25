@@ -27,3 +27,12 @@ continue_btn.onclick = ()=>{
     startTimer(20); //calling startTimer function
     startTimerLine(0); //calling startTimerLine function
 }
+let timeValue =  20;
+let que_count = 0;
+let que_numb = 1;
+let userScore = 0;
+let counter;
+let counterLine;
+let widthValue = 0;
+const restart_quiz = result_box.querySelector(".buttons .restart");
+const quit_quiz = result_box.querySelector(".buttons .quit");

@@ -58,4 +58,4 @@ let questions = [
       "eXTra Multi-Program Language",
       "eXamine Multiple Language"
     ]
-  }
+}];
