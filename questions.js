@@ -11,6 +11,7 @@ let questions = [
       "Hyper Tool Multi Language"
     ]
 },
+
 {
     numb: 2,
     question: "What does CSS stand for?",
@@ -22,3 +23,15 @@ let questions = [
     "Cascading Style Sheet"
 ]
 },
+
+{
+    numb: 3,
+    question: "What does PHP stand for?",
+    answer: "Hypertext Preprocessor",
+    options: [
+      "Hypertext Preprocessor",
+      "Hypertext Programming",
+      "Hypertext Preprogramming",
+      "Hometext Preprocessor"
+    ]
+  },
