@@ -260,8 +260,8 @@ footer button{
     outline: none;
     color: #fff;
     border-radius: 5px;
-    background: #007bff;
-    border: 1px solid #007bff;
+    background:lightblue;
+    border: 1px solid lightblue;
     line-height: 10px;
     opacity: 0;
     pointer-events: none;
