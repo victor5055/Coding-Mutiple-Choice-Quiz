@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+/*Body of page*/
 body{
     background: #007bff;
 }
@@ -43,6 +44,7 @@ body{
     background: #fff;
     cursor: pointer;
 }
+/*info box*/
 .info_box{
     width: 540px;
     background: #fff;
@@ -95,6 +97,7 @@ body{
     border: 1px solid #007bff;
     transition: all 0.3s ease;
 }
+/*Quiz Box*/
 .quiz_box{
     width: 550px;
     background: #fff;
@@ -226,6 +229,52 @@ section .option_list .option .icon{
     color: #a42834;
     background: #f8d7da;
     border-color: #a42834;
+}
+/*Footer sart*/
+footer{
+    height: 60px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid lightgrey;
+}
+footer .total_que span{
+    display: flex;
+    user-select: none;
+}
+footer .total_que span p{
+    font-weight: 500;
+    padding: 0 5px;
+}
+footer .total_que span p:first-child{
+    padding-left: 0px;
+}
+footer button{
+    height: 40px;
+    padding: 0 13px;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    background: #007bff;
+    border: 1px solid #007bff;
+    line-height: 10px;
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.95);
+    transition: all 0.3s ease;
+}
+footer button:hover{
+    background: #0263ca;
+}
+footer button.show{
+    opacity: 1;
+    pointer-events: auto;
+    transform: scale(1);
 }
 
 
