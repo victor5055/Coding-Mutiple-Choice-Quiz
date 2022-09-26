@@ -1,4 +1,4 @@
 # Coding-Mutiple-Choice-Quiz
 Multiple Choice Quiz Application
 # image
-![](CodingQuiz%20Application.jpg)
+![](Coding%20Quiz%20Application.jpg)
