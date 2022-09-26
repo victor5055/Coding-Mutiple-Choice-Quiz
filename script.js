@@ -191,4 +191,44 @@ function startTimer(time){
     }
 }
 
+function startTimerLine(time){
+    counterLine = setInterval(timer, 29);
+    function timer(){
+        time += 1; //upgrading time value with 1
+        time_line.style.width = time + "px"; //increasing width of time_line with px by time value
+        if(time > 549){ //if time value is greater than 549
+            clearInterval(counterLine); //clear counterLine
+        }
+    }
+}
+function queCounter(index){
+    //creating a new span tag and passing the question number and total question
+    let totalQueCounTag = '<span><p>'+ index +'</p> of <p>'+ questions.length +'</p> Questions</span>';
+    bottom_ques_counter.innerHTML = totalQueCounTag;  //adding new span tag inside bottom_ques_counter
+}
+
+ //Scoreboard and initals
+ const scores = [];
+ const initals = document.getElementById('initials');
+ const initialsList = document.getElementById('initialsList');
+
+ function addInitals() {
+     const userInput = initals.value;
+     if (userInput == "") {
+         return
+     }
+     else {
+         scores.push(userInput);
+         initialsList.innerHTML = "";
+         scores.forEach((_score) => {
+             const li = document.createElement("li");
+             li.appendChild(document.createTextNode(_score));
+             initialsList.appendChild(li);
+         })
+     }
+ }
+ var submitButton = document.querySelector("#submit");
+ submitButton.addEventListener('click', addInitals);
+
+
 
