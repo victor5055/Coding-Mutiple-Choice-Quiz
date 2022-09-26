@@ -221,8 +221,8 @@ section .option_list .option .icon{
 }
 
 .option_list .option .icon.tick{
-    color: #23903c;
-    border-color: #23903c;
+    color:#a42834 ;
+    border-color:#a42834;
     background: #d4edda;
 }
 .option_list .option .icon.cross{
