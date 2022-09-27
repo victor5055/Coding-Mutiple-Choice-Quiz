@@ -124,7 +124,7 @@ function optionSelected(answer){
         console.log("Correct Answer");
         console.log("Your correct answers = " + userScore);
     }else{
-        answer.classList.add("incorrect"); //adding red color to correct selected option
+        answer.classList.add("incorrect"); //adding red color to incorrect selected option
         answer.insertAdjacentHTML("beforeend", crossIconTag); //adding cross icon to correct selected option
         console.log("Wrong Answer");
         for(i=0; i < allOptions; i++){
@@ -229,6 +229,8 @@ function queCounter(index){
  }
  var submitButton = document.querySelector("#submit");
  submitButton.addEventListener('click', addInitals);
+ 
+ 
 
 
 

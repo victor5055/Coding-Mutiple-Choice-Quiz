@@ -123,6 +123,7 @@ body{
     font-size: 20px;
     font-weight: 600;
 }
+/*Timer start*/
 .quiz_box header .timer{
     color: #004085;
     background: #cce5ff;
@@ -221,8 +222,8 @@ section .option_list .option .icon{
 }
 
 .option_list .option .icon.tick{
-    color:#a42834 ;
-    border-color:#a42834;
+    color:green ;
+    border-color:green;
     background: #d4edda;
 }
 .option_list .option .icon.cross{
@@ -276,7 +277,7 @@ footer button.show{
     pointer-events: auto;
     transform: scale(1);
 }
-
+/*Result box*/
 .result_box{
     background: #fff;
     border-radius: 5px;
@@ -310,6 +311,7 @@ footer button.show{
     padding: 0 4px;
     font-weight: 600;
 }
+/*buttons start*/
 .result_box .buttons{
     display: flex;
     margin: 20px 0;
